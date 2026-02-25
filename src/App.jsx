@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -15,7 +13,6 @@ function App() {
           <p className="subtitle">by Ma'am Ambreen Siddique</p>
           <div className="badge">Grade 5 till O' Levels</div>
           <h2>Coaching and Tuition</h2>
-          <p className="session-info">6th Session Starting Soon • 4 days a week</p>
           <a href="https://wa.me/923369569496" className="cta-button" target="_blank" rel="noreferrer">
             Enroll Now
           </a>
@@ -43,11 +40,11 @@ function App() {
         <ul className="features-list">
           <li>✔️ Certified Teacher</li>
           <li>✔️ 21 years of Experience</li>
-          <li>✔️ Personalized lesson plans for diverse learners</li>
+          <li>✔️ Personalized lesson plans for diverse learning</li>
           <li>✔️ Emphasis on critical thinking, not rote memorization</li>
           <li>✔️ Proven track record of improved academic performance</li>
         </ul>
-        <div className="limited-seats">Limited Seats Available</div>
+        <div className="limited-seats">Limited Seats Available both Online and Physical</div>
       </section>
 
       {/* FOOTER / CONTACT */}
