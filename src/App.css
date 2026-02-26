@@ -52,19 +52,22 @@ body {
   top: 15%;
   right: 8%;
   width: 150px;
+  border-radius: 50%;
   transform: rotate(15deg); /* Gives it a fun little tilt */
 }
 
 .icon-globe {
   bottom: 10%;
-  left: 5%;
+  right: 5%;
   width: 140px;
+  transform: rotate(15deg);
 }
 
 .icon-books {
-  top: 20%;
-  left: 8%;
+  bottom: 10%;
+  left: 5%;
   width: 130px;
+  transform: rotate(-15deg);
 }
 
 /* Hide the icons on small mobile screens so they don't block the text */
@@ -156,6 +159,8 @@ body {
 
 /* About Section */
 .about-section {
+  position: relative; /* Crucial for floating icons to stay inside the header */
+  overflow: hidden;
   padding: 4rem 2rem;
   background-color: var(--white);
   display: flex;

@@ -9,7 +9,6 @@ function App() {
       {/* HEADER / HERO SECTION */}
       <header className="hero-section">
         {/* Decorative Background Icons */}
-        <img src="/bulb.png" alt="Idea Bulb" className="floating-icon icon-bulb" />
         <img src="/globe.png" alt="Globe" className="floating-icon icon-globe" />
         <img src="/books.png" alt="Books" className="floating-icon icon-books" />
         <div className="hero-content">
@@ -28,6 +27,7 @@ function App() {
 
       {/* ABOUT SECTION */}
       <section className="about-section">
+        <img src="/bulb.png" alt="Idea Bulb" className="floating-icon icon-bulb" />
         <div className="about-card">
           {/* Replace src with your actual image path later */}
           <img src="/profile-placeholder.png" alt="Ma'am Ambreen Siddique" className="profile-img" />
