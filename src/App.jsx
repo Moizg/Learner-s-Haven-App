@@ -9,7 +9,10 @@ function App() {
       {/* HEADER / HERO SECTION */}
       <header className="hero-section">
         <div className="hero-content">
-          <h1>Learner's Haven</h1>
+          <div className="hero-title-container">
+            <h1>Learner's Haven</h1>
+            <img src="/logo.png" alt="Learner's Haven Logo" className="heading-logo" />
+          </div>
           <p className="subtitle">by Ma'am Ambreen Siddique</p>
           <div className="badge">Grade 5 till O' Levels</div>
           <h2>Coaching and Tuition</h2>

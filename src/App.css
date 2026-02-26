@@ -33,6 +33,36 @@ body {
   color: var(--text-dark);
 }
 
+.hero-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px; /* Adds space between the text and the logo */
+  margin-bottom: 0.2rem;
+}
+
+.hero-title-container h1 {
+  font-size: 3rem;
+  margin-bottom: 0; /* Overrides the previous margin */
+  color: var(--text-dark);
+}
+
+.heading-logo {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%; /* Keeps the circular look */
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Adjust sizes for smaller phone screens */
+@media (max-width: 600px) {
+  .hero-title-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
 .hero-section h1 {
   font-size: 3rem;
   margin-bottom: 0.2rem;
