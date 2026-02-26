@@ -27,10 +27,51 @@ body {
 
 /* Hero Section (Pink/Peach Vibe) */
 .hero-section {
+  position: relative; /* Crucial for floating icons to stay inside the header */
+  overflow: hidden;
   background: linear-gradient(135deg, var(--light-peach) 0%, var(--primary-pink) 100%);
   padding: 4rem 2rem;
   text-align: center;
   color: var(--text-dark);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+/* Base style for all floating icons */
+.floating-icon {
+  position: absolute;
+  z-index: 1;
+  opacity: 0.9; /* Optional: makes them blend into the background a bit */
+}
+
+/* Specific positions for each icon */
+.icon-bulb {
+  top: 15%;
+  right: 8%;
+  width: 150px;
+  transform: rotate(15deg); /* Gives it a fun little tilt */
+}
+
+.icon-globe {
+  bottom: 10%;
+  left: 5%;
+  width: 140px;
+}
+
+.icon-books {
+  top: 20%;
+  left: 8%;
+  width: 130px;
+}
+
+/* Hide the icons on small mobile screens so they don't block the text */
+@media (max-width: 900px) {
+  .floating-icon {
+    display: none;
+  }
 }
 
 .hero-title-container {
@@ -48,8 +89,8 @@ body {
 }
 
 .heading-logo {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%; /* Keeps the circular look */
   object-fit: cover;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
