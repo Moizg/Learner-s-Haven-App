@@ -48,8 +48,8 @@ body {
 }
 
 .heading-logo {
-  width: 65px;
-  height: 65px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%; /* Keeps the circular look */
   object-fit: cover;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);

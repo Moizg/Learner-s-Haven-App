@@ -10,12 +10,12 @@ function App() {
       <header className="hero-section">
         <div className="hero-content">
           <div className="hero-title-container">
-            <h1>Learner's Haven</h1>
             <img src="/logo.png" alt="Learner's Haven Logo" className="heading-logo" />
+            <h1>Learner's Haven</h1>
           </div>
           <p className="subtitle">by Ma'am Ambreen Siddique</p>
           <div className="badge">Grade 5 till O' Levels</div>
-          <h2>Coaching and Tuition</h2>
+          <h2>English Language Coaching and Tuition</h2>
           <a href="https://wa.me/923369569496" className="cta-button" target="_blank" rel="noreferrer">
             Enroll Now
           </a>
@@ -41,7 +41,7 @@ function App() {
       <section className="features-section">
         <h3>Why Choose Us?</h3>
         <ul className="features-list">
-          <li>✔️ Certified Teacher</li>
+          <li>✔️ Certified Teachers</li>
           <li>✔️ 21 years of Experience</li>
           <li>✔️ Personalized lesson plans for diverse learning</li>
           <li>✔️ Emphasis on critical thinking, not rote memorization</li>
