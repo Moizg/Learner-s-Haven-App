@@ -10,6 +10,7 @@ function App() {
       <header className="hero-section">
         {/* Decorative Background Icons */}
         <img src="/books.png" alt="Books" className="floating-icon icon-books" />
+        <img src="/globe.png" alt="Globe" className="floating-icon icon-globe" />
         <div className="hero-content">
           <div className="hero-title-container">
             <img src="/logo.png" alt="Learner's Haven Logo" className="heading-logo" />
